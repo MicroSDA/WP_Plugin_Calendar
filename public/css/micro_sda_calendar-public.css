@@ -1,0 +1,16 @@
+.holder{
+    height:100px;
+    width: auto;
+    background:transparent;
+    margin-top: -65px;
+
+}
+.block{
+    position: absolute;
+    display:none;
+    margin-left:9px;
+    margin-top: 55px;
+}
+.holder:hover .block{
+    display:block;
+}
